@@ -176,7 +176,7 @@
             <td>5</td>
             <td>5</td>
             <td>5</td>
-            <td></td>
+            <td>5</td>
             <td></td>
             <td></td>
             <td></td>
@@ -328,11 +328,11 @@
             <td>5</td>
             <td>5</td>
             <td>5 5</td>
+            <td>5 2</td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td>10</td>
           </tr>
           <tr>
             <td>15</td>
@@ -455,6 +455,13 @@
 </html>
 
 <!--
+s = '5 5  5 5 5 2 5   5 5 5 5 10'
+x = lambda i: round(i/70*10) if i>=30 else 4
+w = lambda i: x(sum([int(n) for n in ''.join(i.split()).replace('0','9').replace('.','')]))
+w(s)
+
+
+
 (sum([int(i) for i in ''.join(s.split()).replace('0','9')])/140*6)+4
 
 
