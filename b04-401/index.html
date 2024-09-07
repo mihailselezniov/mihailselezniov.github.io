@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
-    <title>b02-308</title>
-
+    <title>b04-401</title>
+ 
     <style>
         .container2 {
           margin: 15px;
@@ -56,82 +56,72 @@
         <tbody>
           <tr>
             <td>1</td>
-            <td>Громыка Владимир</td>
-            <td>5</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Гусев Алексей</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>3</td>
-            <td>Житко Егор</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>4</td>
-            <td>Знаменский Николай</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Зорин Владислав</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>6</td>
-            <td>Иванов Михаил</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>7</td>
-            <td>Кондратьев Сергей</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>8</td>
-            <td>Калмыков Артем</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>9</td>
-            <td>Куснатдинова Динара</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>10</td>
-            <td>Лисин Роман</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>11</td>
-            <td>Мартинович Семён</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>12</td>
-            <td>Никифоров Иван</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>13</td>
-            <td>Рощин Кирилл</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>14</td>
-            <td>Скопкарёва Мария</td>
+            <td>1</td>
+            <td></td>
             <td></td>
           </tr>
           <tr>
-            <td>15</td>
-            <td>Степанов Тимофей</td>
+            <td>1</td>
             <td></td>
-          </tr>
-          <tr>
-            <td>16</td>
-            <td>Тебеньков Вадим</td>
             <td></td>
           </tr>
         </tbody>
@@ -162,13 +152,12 @@
 
 <!--
 s = '5 5  5 5 5 2 5   5 5 5 5 10'
-m = 75
-x = lambda i: round((i/m*10)+0.0001) if i>=(m*0.4) else 4
+x = lambda i: round(i/70*10) if i>=30 else 4
 w = lambda i: x(sum([int(n) for n in ''.join(i.split()).replace('0','9').replace('.','')]))
 w(s)
-5
 
-print('\n'.join(sorted(s.split('\n'))))
+
+
 (sum([int(i) for i in ''.join(s.split()).replace('0','9')])/140*6)+4
 
 
