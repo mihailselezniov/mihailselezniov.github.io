@@ -148,8 +148,8 @@
             <td>5</td>
             <td>5</td>
             <td>3</td>
-            <td></td>
-            <td></td>
+            <td>5</td>
+            <td><span class="purple">8</span></td>
           </tr>
           <tr>
             <td>6</td>
@@ -199,8 +199,8 @@
             <td>.</td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <td>5</td>
+            <td><span class="purple">5</span></td>
           </tr>
           <tr>
             <td>9</td>
@@ -283,7 +283,7 @@
 
 <!--
 s = '5 5  5 5 5 2 5   5 5 5 5 10'
-m = 75
+m = 60
 x = lambda i: round((i/m*10)+0.0001) if i>=(m*0.4) else 4
 w = lambda i: x(sum([int(n) for n in ''.join(i.split()).replace('0','9').replace('.','')]))
 w(s)
