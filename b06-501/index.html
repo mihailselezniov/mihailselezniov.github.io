@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css" crossorigin="anonymous">
+    <title>b06-501</title>
+ 
+    <style>
+        .container2 {
+          margin: 15px;
+          line-height: 1;
+        }
+        .table td {
+          padding: .55rem;
+        }
+        .footer {margin-top: 80px;}
+        h1 {margin-top: 5px;}
+        .post-name {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .contest-link {
+            position: absolute;
+            margin-top: -5px;
+            z-index: 999;
+        }
+        .table td .blue {color:#0a58ca;}
+        .table td .green {color:#146c43;}
+        .table td .purple {color:#59359a;}
+        .table td .orange {color:#ca6510;}
+        .table td .red {color:#b02a37;}
+        .table td .cyan {color:#0a96b2;}
+        .table td .yellow {color:#cc9a06;}
+        .table td .indigo {color:#520dc2;}
+        .table td .gray {color:#6c757d;}
+        .table td .pink {color:#ab296a;}
+        .table td .teal {color:#1aa179;}
+        .table td .miss {opacity: 0.5;}
+        
+    </style>
+    <!-- https://bootstrapemail.com/docs/background-color -->
+  </head>
+  <body>
+
+
+<main role="main" class="container2">
+<!--a class="btn btn-primary contest-link" href="https://python.mipt.ru/lpr/" role="button" target="_blank">Контесты</a-->
+  <div class="starter-template">
+
+    <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>1</th>
+                <th>2</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Аксенова Екатерина</td>
+            <td><span class="green">3<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">5<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ахмедов Шахрияр</td>
+            <td><span class="green">4<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">4<span> <span class="blue"><span> <span class="orange"><span></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Громов Роман</td>
+            <td><span class="green"><span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">2<span> <span class="blue"><span> <span class="orange"><span></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Гуринович Иван</td>
+            <td><span class="green">5<span> <span class="blue">5<span> <span class="orange"><span></td>
+            <td><span class="green">5<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Лужецкая Арина</td>
+            <td><span class="green">5<span> <span class="blue">5<span> <span class="orange"><span></td>
+            <td><span class="green">4<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Незвинский Матвей</td>
+            <td><span class="green">5<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">5<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Первинкина Ася</td>
+            <td><span class="green">3<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">3<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Подосинникова Мария</td>
+            <td><span class="green">5<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">3<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Сутягина Влада</td>
+            <td><span class="green">5<span> <span class="blue">5<span> <span class="orange"><span></td>
+            <td><span class="green">5<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Шаханова Настя</td>
+            <td><span class="green">5<span> <span class="blue">2<span> <span class="orange"><span></td>
+            <td><span class="green">2<span> <span class="blue"><span> <span class="orange">2<span></td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    <div style="opacity: 0.5;"></div>
+    <br>
+    <div style="opacity: 0.5;"></div>
+  </div>
+
+</main>
+
+<div class="footer"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#example').DataTable({
+              'paging': false
+              });
+        } );
+    </script>
+
+  </body>
+</html>
+
+<!--
+s = '5 5  5 5 5 2 5   5 5 5 5 5'
+m = 65
+x = lambda i: round((i/m*10)+0.0001) if i>=(m*0.4) else 4
+w = lambda i: x(sum([int(n) for n in ''.join(i.split()).replace('0','9').replace('.','')]))
+w(s)
+
+
+
+(sum([int(i) for i in ''.join(s.split()).replace('0','9')])/140*6)+4
+
+
+min = 16 (2*8) 5 баллов
+100% = 23 (5*8-1-16) 9 баллов
+
+(sum - 16) / 5.75 + 5
+x = lambda i: round(((i-16)/5.75)+5, 2) if i>=16 else 4
+
+
+
+min = 30 (2*15) 5 баллов
+100% = 44 (5*15-1-30) 9 баллов
+
+(sum - 30) / 11 + 5
+x = lambda i: round(((i-30)/11)+5, 2) if i>=30 else 4
+
+----------
+
+min = 30 (2*15) 5 баллов
+100% = 75 (5*15) 10 баллов
+
+(sum - 30) / 9 + 5
+x = lambda i: round(((i-30)/9)+5, 2) if i>=30 else 4
+
+min = 24 (2*12) 5 баллов
+100% = 60 (5*12) 10 баллов
+(sum - 24) / 7.2 + 5
+x = lambda i: round(((i-24)/7.2)+5, 2) if i>=24 else 4
+w = lambda i: x(sum([int(n) for n in str(i)]))
+
+-->
